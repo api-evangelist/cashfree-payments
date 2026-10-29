@@ -64,5 +64,133 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cashfree Payments is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.hiive.com/securities/cashfree-payments-stock
+Cashfree Payments provides a comprehensive payment gateway platform enabling businesses to collect online payments across multiple modes, including cards, UPI, wallets, and international payment methods. Their solutions cover hosted checkout, payment links, recurring subscriptions, payouts, and compliance tools, serving merchants in India and globally with fast settlements and extensive developer resources.
+
+**Areas:** Company · Payments · Fintech · Gateways
+
+## Cashfree Payments on APIs.io
+
+Everything profiled for Cashfree Payments is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cashfree-payments/](https://apis.io/providers/cashfree-payments/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [Cashfree Payments Orders API](https://apis.io/apis/cashfree-payments/cashfree-payments-orders-api/) — The Orders API from Cashfree Payments — 1 operation(s) for orders.
+- [Cashfree Payments Payout API](https://apis.io/apis/cashfree-payments/cashfree-payments-payout-api/) — The Payout API from Cashfree Payments — 1 operation(s) for payout.
+- [Cashfree Payments Pg API](https://apis.io/apis/cashfree-payments/cashfree-payments-pg-api/) — The Pg API from Cashfree Payments — 6 operation(s) for pg.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Cashfree Payments Webhooks](https://apis.io/asyncapis/cashfree-payments/cashfree-payments-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetPgOrdersOrderidIdResponse](https://apis.io/schemas/cashfree-payments/cashfree-payments-get-pg-orders-orderid-id-response/)
+- [PostPgOrdersOrderidRefundsResponse](https://apis.io/schemas/cashfree-payments/cashfree-payments-post-pg-orders-orderid-refunds-response/)
+- [PostPgOrdersResponse](https://apis.io/schemas/cashfree-payments/cashfree-payments-post-pg-orders-response/)
+- [PostPgOrdersSessionsResponse](https://apis.io/schemas/cashfree-payments/cashfree-payments-post-pg-orders-sessions-response/)
+- [PostPgRequest](https://apis.io/schemas/cashfree-payments/cashfree-payments-post-pg-request/)
+- [PostPgResponse](https://apis.io/schemas/cashfree-payments/cashfree-payments-post-pg-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Cashfree Payments Context](https://apis.io/jsonld/cashfree-payments/cashfree-payments-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Cashfree Payments API Rules](https://apis.io/rules/cashfree-payments/cashfree-payments-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Cashfree Payments Authentication](https://apis.io/security/cashfree-payments/cashfree-payments-authentication/)
+- [Cashfree Payments Domain Security](https://apis.io/security/cashfree-payments/cashfree-payments-domain-security/)
+- [Cashfree Payments Vulnerability Disclosure](https://apis.io/security/cashfree-payments/cashfree-payments-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Cashfree Payments Plans Pricing](https://apis.io/plans/cashfree-payments/cashfree-payments-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.cashfree.com:443/)
+- [Documentation](https://docs.cashfree.com/)
+- [Getting started](https://www.cashfree.com/one-click-onboarding/)
+- [API reference](https://www.cashfree.com/docs/api-reference/overview)
+- [Support](https://www.cashfree.com/support/)
+- [Blog](https://www.cashfree.com/blog/)
+- [Security](https://clarity.com/vdp)
+- [Trust centre](https://trust.cashfree.com/)
+- [Privacy policy](https://www.cashfree.com/privacypolicy/)
+- [GitHub](https://github.com/cashfree)
+
+## API Evangelist rating
+
+**Kin Score 46.1** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 69.6 |
+| Contract quality | 33.9 |
+| Contract governance | 22.0 |
+| Operational transparency | 23.7 |
+| Developer ergonomics | 71.4 |
+| Access clarity | 50.0 |
+
+**Agent readiness 51.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | documented (partial credit) |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+
+**Regulatory alignment 28.6** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cashfree-payments/](https://apis.io/providers/cashfree-payments/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cashfree Payments: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cashfree-payments/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
